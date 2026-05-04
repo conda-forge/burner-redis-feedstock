@@ -1,5 +1,5 @@
 {% set name = "burner-redis" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/burner-redis/burner_redis-{{ version }}.tar.gz
-  sha256: 19280d9f6a531ad57e75f0e9b877372547229d9d3014181def56718cbc66f88d
+  sha256: 362091d98c09953ef99be8bd026d75fad42599a0f153211e1a22d3e3029c7cfb
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
